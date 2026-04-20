@@ -11,5 +11,9 @@
         Height="450"
         x:Class="MyWindowsApp.MainWindow"
         Title="MyWindowsApp">
-    Welcome to Avalonia!
+
+        <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Button>Calculate</Button>
+
+
 </Window>
